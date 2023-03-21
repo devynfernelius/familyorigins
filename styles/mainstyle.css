@@ -25,6 +25,10 @@ nav a{
     padding: 50px;
     align-items: center;
 }
+nav a:hover{
+    background-color: white;
+    color: #E6A3A3;
+}
 #eyecatch{
     display: grid;
     grid-template-rows: 50px, repeat(7, 1fr);
