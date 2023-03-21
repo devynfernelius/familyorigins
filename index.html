@@ -5,67 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="styles/mainstyle.css">
 </head>
 <body>
-    <header id="Logo">
-        <img src="images/familyorigins.jpg" alt="Family Origins Logo">
+    <header id="top">
+        <img class="logo" src="images/familyorigins.jpg" alt="Family Origins Logo">
+        <nav class="verytop">
+            <a class="index" href="index.html">Home</a>
+            <a class="start" href="getting-started.html">Getting Started</a>
+            <a class="fp" href="for-parents.html">For Parents</a>
+            <a class="fa" href="#">For Adoptees</a>
+            <a class="site" href="site-plan.html">Site Plan</a>
+            <a class="about" href="#">About Us</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="getting-started.html">Getting Started</a>
-        <a href="for-parents.html">For Parents</a>
-        <a href="#">For Adoptees</a>
-        <a href="site-plan.html">Site Plan</a>
-        <a href="#">About Us</a>
-    </nav>
     <div id="eyecatch">
-        <div id="eyecatchimg">
+        <div class="eyecatchimg">
         <img src="images/comresearch.jpg" alt="Hands doing Computer Research">
         </div>
-        <section id="eyecatchmsg">
+        <section class="eyecatchmsg">
             <h1>Family Origins</h1>
         </section>
     </div>
-    <main class="explore">
-        <p>
-          What does Family Origins offer?  
-        </p>
-        <p>
-            Knowledge! Explore my site to learn more about your ancestors! I will educate you on doing basic genealogy work. I will also help parents who like family history, but need ideas on how to help your children be interested in family history. I will do that by giving parents activity ideas that are fun for the whole family! I also want to help people who are adopted learn more about either your birth family or your birth family's culture (depending on what your situation is).
-        </p>
-        <section class="started">
-            <img class="starting" src="images/picturestacks.jpg" alt="Black and White Family Photo">
-            <h2>Getting Started</h2>
-        </section>
-        <section class="parents">
-            <img class="teenagers" src="images/happyteens.jpg" alt="Smiling Teenagers">
-            <h2>For Parents</h2>
-        </section>
-        <section class="adopted">
-            <img class="dna" src="images/dna.jpg" alt="DNA Strand">
-            <h2>For Adoptees</h2>
-        </section>
-        <div id="stay">
+    <main id="explore">
+        <section class="offer">
+            <h1>What does Family Origins offer?</h1>
             <p>
-                What makes Family Origins different from other websites?
+            Knowledge! Explore my site to learn more about your ancestors! I will educate you on doing basic genealogy work. I will also help parents who like family history, but need ideas on how to help your children be interested in family history. I will do that by giving parents activity ideas that are fun for the whole family! I also want to help people who are adopted learn more about either your birth family or your birth family's culture (depending on what your situation is).
             </p>
+        </section>
+        <div class="highlight">
+            <section class="started">
+                <img class="starting" src="images/picturestacks.jpg" alt="Black and White Family Photo">
+                <h1>Getting Started</h1>
+            </section>
+            <section class="parents">
+                <img class="teenagers" src="images/happyteens.jpg" alt="Smiling Teenagers">
+                <h1>For Parents</h1>
+            </section>
+            <section class="adopted">
+                <img class="dna" src="images/dna.jpg" alt="DNA Strand">
+                <h1>For Adoptees</h1>
+            </section>
+        </div>
+        <div class="stay">
+            <h1>What makes Family Origins different from other websites?</h1>
             <p>
                 I have experience doing family history and can give tips based on my own experience doing family history and can give tips based on my own experience. I may not be a parent, but I can be the voice of other parents who can give advice for your family. I can help adoptees because I am adopted and know how you can learm more about your birth family (no matter what your circumstances are).
             </p>
             <img class="homephoto" src="images/oldfamily.jpg" alt="Black and White Family Photo">
         </div>
-        <img class="adventure" src="images/watergirl.jpg" alt="Woman in a Boat">
     </main>
-    <footer class="bottompage">
+    <footer id="bottompage">
         <p>
             Family Origins &copy; 2023 - Devyn Fernelius
         </p>
-        <p>
-            Site Plan
-        </p>
-        <p>
-            About Us
-        </p>
+        <nav>
+            <a href="site-plan.html">Site Plan</a>
+            <a href="#">About Us</a>
+        </nav>
         <div class="media">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="Facebook Icon">
@@ -74,7 +72,7 @@
                 <img src="images/twitter.png" alt="Twitter Icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png">
+                <img src="images/instagram.png" alt="Instagram Icon">
             </a>
         </div>
     </footer>

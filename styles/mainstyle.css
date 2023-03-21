@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Merienda+One&display=swap');
+body{
+    margin: 0 auto;
+    font-family: 'Brygada 1918', 'Helvetica', 'sans-serif';
+    color:#4E7C99;
+}
+#top{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr;
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    color:#E6E475;
+    background-color:#4E7C99 ;
+}
+#verytop{
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    position: absolute;
+}
+nav a{
+    text-decoration: none;
+    color: #E6E475;
+    font-size: 25px;
+    padding: 50px;
+    align-items: center;
+}
+#eyecatch{
+    display: grid;
+    grid-template-rows: 50px, repeat(7, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    color:#E6E475;
+    margin-top: -500px;
+    z-index: -1;
+    position: absolute;
+}
+.eyecatchimg{
+    grid-row: 1/9;
+    grid-column: 1/5;
+    width: 100%;
+}
+.eyecatchmsg{
+    grid-row: 1/2;
+    grid-column: 2/4;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 40px;
+    background-color:#4E7C99;
+    margin-top: 550px;
+}
+main{
+    margin-top: 750px;
+}
+#explore h1{
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    color: #8cc4e6;
+    text-align: center;
+}
+.offer{
+    padding: 75px;
+    text-align: center;
+}
+.highlight{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.started{
+    grid-column:1/2
+}
+.parents{
+    grid-column:2/3
+}
+.adopted{
+    grid-column: 3/4;
+}
+.stay{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-top: 100px;
+    padding: 75px;
+}
+.stay h1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.stay p{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.homephoto{
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+#bottompage{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    color:#E6E475;
+    background-color: #4E7C99;
+}
