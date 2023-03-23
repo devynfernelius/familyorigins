@@ -72,6 +72,99 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
+.highlight1{
+    position: relative;
+    width: 50%;
+}
+.highlight1 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    background-color: white;
+}
+.highlight1:hover .overlay{
+    opacity: 90%;
+}
+.highlight1 .text{
+    color:#E6A3A3;
+    font-size: 20px;
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.highlight2{
+    position: relative;
+    width: 50%;
+}
+.highlight2 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    background-color: white;
+}
+.highlight2:hover .overlay{
+    opacity: 90%;
+}
+.highlight2 .text{
+    color:#E6A3A3;
+    font-size: 20px;
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.highlight3{
+    position: relative;
+    width: 50%;
+}
+.highlight3 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    background-color: white;
+}
+.highlight3:hover .overlay{
+    opacity: 90%;
+}
+.highlight3 .text{
+    color:#E6A3A3;
+    font-size: 20px;
+    font-family: 'Merienda One', 'Helvetica', 'sans-serif';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 .started{
     grid-column:1/2
 }
@@ -94,6 +187,21 @@ main{
     grid-column: 1/2;
 }
 .stay p{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.stay2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 75px;
+}
+.stay2 h1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.stay2 p{
     grid-row: 2/3;
     grid-column: 1/2;
 }
