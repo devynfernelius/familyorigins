@@ -72,10 +72,12 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
+
 .highlight1{
     position: relative;
-    width: 50%;
+    width: auto;
 }
+
 .highlight1 .overlay{
     position: absolute;
     top: 0;
@@ -105,7 +107,7 @@ main{
 }
 .highlight2{
     position: relative;
-    width: 50%;
+    width: auto;
 }
 .highlight2 .overlay{
     position: absolute;
@@ -136,7 +138,7 @@ main{
 }
 .highlight3{
     position: relative;
-    width: 50%;
+    width: auto;
 }
 .highlight3 .overlay{
     position: absolute;
