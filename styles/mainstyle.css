@@ -31,7 +31,7 @@ nav a:hover{
 }
 #eyecatch{
     display: grid;
-    grid-template-rows: 50px, repeat(7, 1fr);
+    grid-template-rows: 50px repeat(7, 1fr);
     grid-template-columns: repeat(4, 1fr);
     font-family: 'Merienda One', 'Helvetica', 'sans-serif';
     color:#E6E475;
